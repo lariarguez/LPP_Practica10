@@ -12,8 +12,9 @@ end
 RSpec.describe Alimento do
 
         before :each do
-
-                @carnedevaca = Alimento.new('Carne de vaca', 21.1, 0.0, 3.1, 50.0, 164.0)
+	#---------------Practica 5-----------------------
+                
+		@carnedevaca = Alimento.new('Carne de vaca', 21.1, 0.0, 3.1, 50.0, 164.0)
                 @carnecordero = Alimento.new('Carne de cordero', 18.0, 0.0, 17.0, 20.0, 185.0)
                 @camarones = Alimento.new('Camarones', 17.6, 1.5, 0.6, 18.0, 2.0)
                 @chocolate = Alimento.new('Chocolate', 5.3, 47.0, 30.0, 2.3, 3.4)
@@ -58,6 +59,8 @@ RSpec.describe Alimento do
                       puts "Impacto Ambiental de la Mujer con #{(calorias/23.0).round(2)}% CDR Kcal, y proteinas #{proteinas}g/41g"
                 end
 
+	#----------------Practica 6----------------
+		
 		@nodo_chocolate = Node.new(@chocolate, nil, nil)
 		@nodo_lentejas = Node.new(@lentejas, nil, @nodo_chocolate)
 
@@ -67,6 +70,7 @@ RSpec.describe Alimento do
 		@lista_prueba2.insert_head(@lentejas)
 		@lista_prueba2.insert_head(@chocolate)
 
+	#----------------Practica 7----------------
 
 		@dieta_española = List.new()
 		@dieta_española.insert_tail(@queso)
@@ -92,6 +96,8 @@ RSpec.describe Alimento do
 		@dieta_locuraporlacarne.insert_tail(@carnecordero)
 		@dieta_locuraporlacarne.insert_tail(@cerdo)
 		@dieta_locuraporlacarne.insert_tail(@carnedevaca)
+	
+	#----------------Practica 8-------------------
 
 		@lista_gra = List.new()
 		@lista_gra.insert_tail(50)
@@ -116,11 +122,13 @@ RSpec.describe Alimento do
 		@platohijo_vasco = Platohijo.new("Vasco", @dieta_vasca, @lista_gra)
 
 		@lista_platos = List.new()
-			
+
+	#---------------Practica 9-------------------	
+		
 		@MenuDietetico = [@plato_español, @plato_vasco, @plato_vegetaria]
 		@MenuPrecios = [20.0, 15.5, 13.2]
 
-		
+	#----------------Practica 5------------------
 
 		def gasesefectoinvernadero(dieta)
 		 	
@@ -165,6 +173,8 @@ RSpec.describe Alimento do
 		    ImpactoAmbientalMujer(@mujer)
 		end
 	end
+	
+	#---------------Practica 6------------------
 	
 	describe "Nodo" do
 		it "Debe existir un nodo de la lista con sus datos y su siguiente" do
@@ -301,6 +311,7 @@ RSpec.describe Alimento do
 		end
 	end
 
+	#------------------Practica 8----------------------
 	describe "Plato" do
 		it "Obteniendo el nombre de un plato" do
 			@plato.NombrePlato
@@ -443,6 +454,8 @@ RSpec.describe Alimento do
                 end
         end
 
+	#------------------Practica 9---------------------
+	
 	describe "Menú dietetico" do
 
 		context "Pruebas usando paradigmas de programación funcional" do
@@ -460,7 +473,7 @@ RSpec.describe Alimento do
 			  else 
 				  @porcentaje = 0.20
 		 	  end
-			  @preciosModificados = @MenuPrecios.collect{|x| x +=x*@porcentaje}
+			  @preciosModificados = @MenuPrecios.collect{|x| x += x * @porcentaje}
 			end
 		end
 	end

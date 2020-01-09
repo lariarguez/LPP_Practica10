@@ -36,6 +36,15 @@ class Alimento
 		@proteinas
 	end
 
+	def Lipidos
+		@lipidos
+	end
+
+	def Carbo
+		@carbohidratos
+	end
+
+
       # Método para convertir en Kilo Calorías
       # Devuelve el valor total en Kcal teniendo en cuenta todos los componentes
 	def factor_conversionKcal

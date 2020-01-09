@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Plato - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  
+  <p class="link"><a href="Object.html">Object</a>
+  
+</div>
+
+    <div id="includes-section" class="nav-section">
+  <h3>Included Modules</h3>
+
+  <ul class="link-list">
+  
+  
+    <li><span class="include">Comparable</span>
+  
+  
+  </ul>
+</div>
+
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-c-new">::new</a>
+    
+    <li ><a href="#method-i-3C-3D-3E">#&lt;=&gt;</a>
+    
+    <li ><a href="#method-i-EmisionesDeGases">#EmisionesDeGases</a>
+    
+    <li ><a href="#method-i-HuellaNutricional">#HuellaNutricional</a>
+    
+    <li ><a href="#method-i-ListaAlimentos">#ListaAlimentos</a>
+    
+    <li ><a href="#method-i-ListaGramos">#ListaGramos</a>
+    
+    <li ><a href="#method-i-NombrePlato">#NombrePlato</a>
+    
+    <li ><a href="#method-i-Porcentaje_Carbohidratos">#Porcentaje_Carbohidratos</a>
+    
+    <li ><a href="#method-i-Porcentaje_Lipidos">#Porcentaje_Lipidos</a>
+    
+    <li ><a href="#method-i-Porcentaje_Proteinas">#Porcentaje_Proteinas</a>
+    
+    <li ><a href="#method-i-carbohidratos">#carbohidratos</a>
+    
+    <li ><a href="#method-i-indiceCarbono">#indiceCarbono</a>
+    
+    <li ><a href="#method-i-indiceValorCalorico">#indiceValorCalorico</a>
+    
+    <li ><a href="#method-i-nutrientes_Totales">#nutrientes_Totales</a>
+    
+    <li ><a href="#method-i-to_s">#to_s</a>
+    
+    <li ><a href="#method-i-valorCaloricoTotal">#valorCaloricoTotal</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Plato">
+  <h1 id="class-Plato" class="class">
+    class Plato
+  </h1>
+
+  <section class="description">
+    
+<p>Clase plato que representa una lista de alimentos junto con sus cantidades</p>
+
+  </section>
+
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      
+      <div id="attribute-i-listaAlimentos" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">listaAlimentos</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-listaGramos" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">listaGramos</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-nombrePlato" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">nombrePlato</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+    </section>
+    
+
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(nombrePlato, listaAlimentos, listaGramos)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Constructor de la clase <a href="Plato.html"><code>Plato</code></a></p>
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 10</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>(<span class="ruby-identifier">nombrePlato</span>, <span class="ruby-identifier">listaAlimentos</span>, <span class="ruby-identifier">listaGramos</span>)
+        <span class="ruby-ivar">@nombrePlato</span> = <span class="ruby-identifier">nombrePlato</span>
+        <span class="ruby-ivar">@listaAlimentos</span> = <span class="ruby-identifier">listaAlimentos</span>
+        <span class="ruby-ivar">@listaGramos</span> = <span class="ruby-identifier">listaGramos</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-3C-3D-3E" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">&lt;=&gt;</span><span
+            class="method-args">(other)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método comparación Valor Calorico Total</p>
+          
+          
+
+          
+          <div class="method-source-code" id="3C-3D-3E-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 172</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">&lt;=&gt;</span>(<span class="ruby-identifier">other</span>)
+
+        <span class="ruby-keyword">self</span>.<span class="ruby-identifier">valorCaloricoTotal</span> <span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">other</span>.<span class="ruby-identifier">valorCaloricoTotal</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-EmisionesDeGases" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">EmisionesDeGases</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve Emisiones de Gases de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="EmisionesDeGases-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 92</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">EmisionesDeGases</span>
+        <span class="ruby-identifier ruby-title">nodo</span> = <span class="ruby-ivar">@listaAlimentos</span>.<span class="ruby-identifier">head</span>
+        <span class="ruby-identifier">nodo2</span> = <span class="ruby-ivar">@listaGramos</span>.<span class="ruby-identifier">head</span>
+        <span class="ruby-identifier">suma_gei</span> = <span class="ruby-value">0</span>
+        
+        <span class="ruby-keyword">while</span>(<span class="ruby-identifier">nodo</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span>)
+                <span class="ruby-identifier">suma_gei</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">nodo</span>.<span class="ruby-identifier">value</span>.<span class="ruby-constant">GasesEfectoInvernadero</span> <span class="ruby-operator">*</span> <span class="ruby-identifier">nodo2</span>.<span class="ruby-identifier">value</span> <span class="ruby-operator">/</span> <span class="ruby-value">100</span>
+                <span class="ruby-identifier">nodo</span> = <span class="ruby-identifier">nodo</span>.<span class="ruby-identifier">next</span>
+                <span class="ruby-identifier">nodo2</span> = <span class="ruby-identifier">nodo2</span>.<span class="ruby-identifier">next</span>
+        <span class="ruby-keyword">end</span>
+        
+        <span class="ruby-keyword">return</span> (<span class="ruby-identifier">suma_gei</span>).<span class="ruby-identifier">round</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-HuellaNutricional" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">HuellaNutricional</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método Huella Nutricional de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="HuellaNutricional-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 151</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">HuellaNutricional</span>
+
+        <span class="ruby-keyword">return</span> (<span class="ruby-identifier ruby-title">indiceValorCalorico</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">indiceCarbono</span>)<span class="ruby-operator">/</span><span class="ruby-value">2.0</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-ListaAlimentos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">ListaAlimentos</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve la lista de <a href="Alimentos.html"><code>Alimentos</code></a></p>
+          
+          
+
+          
+          <div class="method-source-code" id="ListaAlimentos-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">ListaAlimentos</span>
+        <span class="ruby-ivar">@listaAlimentos</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-ListaGramos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">ListaGramos</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Devuelve la lista de Gramos</p>
+          
+          
+
+          
+          <div class="method-source-code" id="ListaGramos-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 27</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">ListaGramos</span>
+        <span class="ruby-ivar">@listaGramos</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-NombrePlato" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">NombrePlato</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve el nombre del plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="NombrePlato-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 17</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">NombrePlato</span>
+        <span class="ruby-node">&quot;Nombre del Plato: #{@nombrePlato}&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-Porcentaje_Carbohidratos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">Porcentaje_Carbohidratos</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve los Porcentaje Carbohidratos de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="Porcentaje_Carbohidratos-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 64</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">Porcentaje_Carbohidratos</span>
+
+        <span class="ruby-identifier ruby-title">suma_carbohidratos</span> = <span class="ruby-value">0</span>
+        
+        <span class="ruby-ivar">@listaAlimentos</span>.<span class="ruby-identifier">get_size</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+                <span class="ruby-identifier">suma_carbohidratos</span> <span class="ruby-operator">+=</span> (<span class="ruby-ivar">@listaAlimentos</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">carbohidratos</span> <span class="ruby-operator">*</span> <span class="ruby-ivar">@listaGramos</span>[<span class="ruby-identifier">i</span>]) <span class="ruby-operator">/</span> <span class="ruby-value">100</span>
+        <span class="ruby-keyword">end</span>
+
+        <span class="ruby-keyword">return</span> ((<span class="ruby-identifier">suma_carbohidratos</span><span class="ruby-operator">/</span><span class="ruby-identifier">nutrientes_Totales</span>) <span class="ruby-operator">*</span> <span class="ruby-value">100</span>).<span class="ruby-identifier">round</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-Porcentaje_Lipidos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">Porcentaje_Lipidos</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve los Porcentaje lípidos de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="Porcentaje_Lipidos-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 52</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">Porcentaje_Lipidos</span>
+
+        <span class="ruby-identifier ruby-title">suma_lipidos</span> = <span class="ruby-value">0</span>
+    
+        <span class="ruby-ivar">@listaAlimentos</span>.<span class="ruby-identifier">get_size</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+                <span class="ruby-identifier">suma_lipidos</span> <span class="ruby-operator">+=</span> (<span class="ruby-ivar">@listaAlimentos</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">lipidos</span> <span class="ruby-operator">*</span> <span class="ruby-ivar">@listaGramos</span>[<span class="ruby-identifier">i</span>]) <span class="ruby-operator">/</span> <span class="ruby-value">100</span>
+        <span class="ruby-keyword">end</span>
+
+        <span class="ruby-keyword">return</span> ((<span class="ruby-identifier">suma_lipidos</span><span class="ruby-operator">/</span><span class="ruby-identifier">nutrientes_Totales</span>) <span class="ruby-operator">*</span> <span class="ruby-value">100</span>).<span class="ruby-identifier">round</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-Porcentaje_Proteinas" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">Porcentaje_Proteinas</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve los Porcentaje proteínas de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="Porcentaje_Proteinas-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 41</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">Porcentaje_Proteinas</span>
+
+        <span class="ruby-identifier ruby-title">suma_pro</span> = <span class="ruby-value">0</span>
+        <span class="ruby-ivar">@listaAlimentos</span>.<span class="ruby-identifier">get_size</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+                <span class="ruby-identifier">suma_pro</span> <span class="ruby-operator">+=</span> (<span class="ruby-ivar">@listaAlimentos</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">proteinas</span> <span class="ruby-operator">*</span> <span class="ruby-ivar">@listaGramos</span>[<span class="ruby-identifier">i</span>]) <span class="ruby-operator">/</span> <span class="ruby-value">100</span>
+        <span class="ruby-keyword">end</span>
+        
+        <span class="ruby-keyword">return</span> ((<span class="ruby-identifier">suma_pro</span><span class="ruby-operator">/</span><span class="ruby-identifier">nutrientes_Totales</span>) <span class="ruby-operator">*</span> <span class="ruby-value">100</span>).<span class="ruby-identifier">round</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-carbohidratos" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">carbohidratos</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve carbohidratos de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="carbohidratos-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 107</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">carbohidratos</span>
+
+        <span class="ruby-identifier">nodo</span> = <span class="ruby-ivar">@listaAlimentos</span>.<span class="ruby-identifier">head</span>
+        <span class="ruby-identifier">nodo2</span> = <span class="ruby-ivar">@listaGramos</span>.<span class="ruby-identifier">head</span>
+        <span class="ruby-identifier">suma_carb</span> = <span class="ruby-value">0</span>
+
+        <span class="ruby-keyword">while</span>(<span class="ruby-identifier">nodo</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span>)
+                <span class="ruby-identifier">suma_carb</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">nodo</span>.<span class="ruby-identifier">value</span>.<span class="ruby-identifier">carbohidratos</span> <span class="ruby-operator">*</span> <span class="ruby-identifier">nodo2</span>.<span class="ruby-identifier">value</span> <span class="ruby-operator">/</span> <span class="ruby-value">100</span>
+                <span class="ruby-identifier">nodo</span> = <span class="ruby-identifier">nodo</span>.<span class="ruby-identifier">next</span>
+                <span class="ruby-identifier">nodo2</span> = <span class="ruby-identifier">nodo2</span>.<span class="ruby-identifier">next</span>
+        <span class="ruby-keyword">end</span>
+
+        <span class="ruby-keyword">return</span> (<span class="ruby-identifier">suma_carb</span>).<span class="ruby-identifier">round</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-indiceCarbono" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">indiceCarbono</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve indice de hidratos de carbono de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="indiceCarbono-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 137</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">indiceCarbono</span>
+
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">carbohidratos</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">800</span>
+                <span class="ruby-keyword">return</span> <span class="ruby-value">1</span>
+
+        <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">carbohidratos</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">800</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">carbohidratos</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-value">1200</span>
+                <span class="ruby-keyword">return</span> <span class="ruby-value">2</span>
+
+        <span class="ruby-keyword">else</span> <span class="ruby-identifier">carbohidratos</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">1200</span>
+                <span class="ruby-keyword">return</span> <span class="ruby-value">3</span>
+        <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-indiceValorCalorico" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">indiceValorCalorico</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve indice Valor Calorico de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="indiceValorCalorico-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 123</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">indiceValorCalorico</span>
+        
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">valorCaloricoTotal</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">670</span>
+                <span class="ruby-keyword">return</span> <span class="ruby-value">1</span>
+
+        <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">valorCaloricoTotal</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">670</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">valorCaloricoTotal</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-value">830</span>
+                <span class="ruby-keyword">return</span> <span class="ruby-value">2</span>
+
+        <span class="ruby-keyword">else</span> <span class="ruby-identifier">valorCaloricoTotal</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">830</span>
+                <span class="ruby-keyword">return</span> <span class="ruby-value">3</span>
+        <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-nutrientes_Totales" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">nutrientes_Totales</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve los Nutrientes Totales de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="nutrientes_Totales-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 32</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">nutrientes_Totales</span>
+        <span class="ruby-identifier">nutrientes</span> = <span class="ruby-value">0</span>
+        <span class="ruby-ivar">@listaAlimentos</span>.<span class="ruby-identifier">get_size</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+                <span class="ruby-identifier">nutrientes</span> <span class="ruby-operator">+=</span> <span class="ruby-ivar">@listaAlimentos</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">proteinas</span> <span class="ruby-operator">+</span> <span class="ruby-ivar">@listaAlimentos</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">carbohidratos</span> <span class="ruby-operator">+</span> <span class="ruby-ivar">@listaAlimentos</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">lipidos</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">return</span> <span class="ruby-identifier">nutrientes</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-to_s" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">to_s</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método del nombre del plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="to_s-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 157</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">to_s</span>
+
+
+        <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Nombre Plato: #{@nombrePlato}&quot;</span>
+
+        <span class="ruby-identifier">suma_vct</span> = <span class="ruby-value">0</span>
+
+        <span class="ruby-ivar">@listaAlimentos</span>.<span class="ruby-identifier">get_size</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+                <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;#{@listaAlimentos[i].nombreAlimento}&quot;</span>
+                <span class="ruby-identifier">puts</span> <span class="ruby-ivar">@listaGramos</span>[<span class="ruby-identifier">i</span>]
+                <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;gramos&quot;</span>
+        <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-valorCaloricoTotal" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">valorCaloricoTotal</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Método que devuelve el Valor Calorico Total de un plato</p>
+          
+          
+
+          
+          <div class="method-source-code" id="valorCaloricoTotal-source">
+            <pre><span class="ruby-comment"># File lib/alimentos/plato.rb, line 76</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">valorCaloricoTotal</span>
+
+        <span class="ruby-identifier">nodo</span> = <span class="ruby-ivar">@listaAlimentos</span>.<span class="ruby-identifier">head</span>
+        <span class="ruby-identifier">nodo2</span> = <span class="ruby-ivar">@listaGramos</span>.<span class="ruby-identifier">head</span>
+        <span class="ruby-identifier">suma_vct</span> = <span class="ruby-value">0</span>
+      
+        <span class="ruby-keyword">while</span>(<span class="ruby-identifier">nodo</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span>)
+                <span class="ruby-identifier">suma_vct</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">nodo</span>.<span class="ruby-identifier">value</span>.<span class="ruby-constant">ValorEnergetico</span> <span class="ruby-operator">*</span> <span class="ruby-identifier">nodo2</span>.<span class="ruby-identifier">value</span> <span class="ruby-operator">/</span> <span class="ruby-value">100</span>
+                <span class="ruby-identifier">nodo</span> = <span class="ruby-identifier">nodo</span>.<span class="ruby-identifier">next</span>
+                <span class="ruby-identifier">nodo2</span> = <span class="ruby-identifier">nodo2</span>.<span class="ruby-identifier">next</span>
+        <span class="ruby-keyword">end</span>
+
+        <span class="ruby-keyword">return</span> (<span class="ruby-identifier">suma_vct</span>).<span class="ruby-identifier">round</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.1.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

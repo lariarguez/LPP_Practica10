@@ -234,3 +234,4 @@ class Platohijo < Plato
 		self.impacto_ambiental <=> other.impacto_ambiental
 	end
 end
+
